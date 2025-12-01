@@ -1,0 +1,40 @@
+# ------------------------------------
+# 1. Byte-compiled / temporary files
+# ------------------------------------
+# Compiled Python files
+*.pyc 
+__pycache__/
+
+# macOS/OS X desktop services file
+.DS_Store
+
+# ------------------------------------
+# 2. Environments
+# ------------------------------------
+# Virtual environment folders (standard names)
+venv/
+env/
+
+# Files for environment variables/secrets (to be read by settings.py)
+.env
+.flaskenv
+
+# ------------------------------------
+# 3. Database and Uploaded Media
+# ------------------------------------
+# Local SQLite database file (CRITICAL to ignore)
+db.sqlite3 
+
+# Directory for uploaded media files (e.g., post images)
+/media/
+
+# ------------------------------------
+# 4. IDE specific files (VS Code)
+# ------------------------------------
+.vscode/
+
+# ------------------------------------
+# 5. Django-specific cache/temp
+# ------------------------------------
+*.log
+*.pot
